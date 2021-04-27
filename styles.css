@@ -1,0 +1,136 @@
+/* font-family: 'Barlow Semi Condensed', sans-serif; */
+
+body{
+  background-color: hsl(210, 46%, 95%);
+  padding: 60px;
+}
+
+.review{
+  border-radius: 10px;
+  padding:30px 40px 10px 40px;
+  height:100%;
+  box-shadow: 0 2px 10px -3px rgba(0, 0, 0, 0.2);
+}
+
+.first{
+  background-color: hsl(263, 55%, 52%);
+  position:relative;
+}
+
+.second{
+  background-color:hsl(217, 19%, 35%);
+}
+
+.third{
+  background-color: white;
+}
+
+.fourth{
+  background-color: hsl(219, 29%, 14%);
+}
+
+.virgolette{
+  border:none;
+  border-radius: 0;
+  height:102px;
+  position: absolute;
+  right:150px;
+  top:0;
+}
+
+.profile{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+img{
+  border-radius: 50%;
+  height: 40px;
+  border: 3px solid hsl(0, 0%, 81%);
+}
+
+.description{
+  display: inline-block;
+  margin-left:20px;
+  z-index: 10;
+  position: relative;
+}
+
+.name{
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  color:white;
+  font-weight: 600;
+  font-size:15px;
+}
+
+.nameWhite{
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  color:hsl(217, 19%, 35%);
+  font-weight: 600;
+  font-size:15px;
+}
+
+.job{
+  display: block;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  color:hsl(0, 0%, 81%);
+  font-weight: 500;
+  font-size:12px;
+}
+
+.text{
+  margin-top:15px;
+  z-index: 10;
+  position: relative;
+}
+
+h5{
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  color:white;
+  font-weight: 600;
+}
+
+.titleWhite{
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  color:hsl(217, 19%, 35%);
+  font-weight: 600;
+}
+
+p{
+  margin-top:10px;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  color:hsl(0, 0%, 81%);
+  font-weight: 500;
+  font-size:13px;
+}
+
+.paragraphWhite{
+  margin-top:10px;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  color:hsl(217, 19%, 35%);;
+  font-weight: 500;
+  font-size:13px;
+}
+
+.two{
+  margin-top:30px;
+}
+
+@media screen and (max-width:991px){
+  body{
+    padding: 30px;
+  }
+  .one,.three,.four{
+    margin-bottom:30px;
+  }
+
+  .virgolette{
+    border:none;
+    border-radius: 0;
+    height:102px;
+    position: absolute;
+    right:30px;
+    top:0;
+  }
+}
